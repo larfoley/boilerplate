@@ -1,0 +1,27 @@
+.clearfix {
+  /* IE-6 */
+  *zoom: 1;
+  &:after, &:before {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.float-left {
+  float:left;
+}
+
+.float-right {
+  float: right;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
