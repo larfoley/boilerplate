@@ -1,3 +1,38 @@
-$red: #E74C3C;
-$green: #2ECC71;
-$blue: #1E88E5;
+$colors: (
+  "red": #E74C3C,
+  "green": #2ECC71,
+  "blue": #1E88E5,
+  "white": #fff,
+  "black": #000,
+  "brightgray": #373D49
+);
+
+@each $color, $value in $colors {
+
+  .#{$color} {
+    color: $value;
+  }
+
+  .bg-#{$color} {
+    background-color: $value;
+  }
+
+  @if $color != "white" {
+    .#{$color}--light {
+      color: lighten($value, 20%);
+    }
+    .bg-#{$color}--light {
+      background-color: lighten($value, 20%);
+    }
+  }
+
+  @if $color != "black" {
+    .#{$color}--dark {
+      color: darken($value, 20%);
+    }
+    .bg-#{$color}--dark {
+      background-color: darken($value, 20%);
+    }
+  }
+
+}
