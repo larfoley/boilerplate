@@ -1,11 +1,21 @@
+$red: #E74C3C;
+$green: #2ECC71;
+$blue: #1E88E5;
+$gray: #808080;
+$brightgray: #373D49;
+$radical-red: #FF3366;
+
 $colors: (
   "red": #E74C3C,
   "green": #2ECC71,
   "blue": #1E88E5,
   "white": #fff,
   "black": #000,
-  "brightgray": #373D49
+  "gray": #808080,
+  "brightgray": #373D49,
+  "radical-red": #FF3366
 );
+
 
 @each $color, $value in $colors {
 
