@@ -720,6 +720,12 @@ textarea {
 .bg-white {
   background-color: #fff; }
 
+.white--light {
+  color: white; }
+
+.bg-white--light {
+  background-color: white; }
+
 .white--dark {
   color: #cccccc; }
 
@@ -737,6 +743,12 @@ textarea {
 
 .bg-black--light {
   background-color: #333333; }
+
+.black--dark {
+  color: black; }
+
+.bg-black--dark {
+  background-color: black; }
 
 .gray {
   color: #808080; }
@@ -797,7 +809,7 @@ html {
   background: white;
   font-family: "Raleway", "Helvetica Neue", "Helvetica", "Tahoma", "Verdana", sans-serif;
   font-size: 17px;
-  color: #808080; }
+  color: #ccc; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -838,34 +850,37 @@ li {
   max-width: 90%;
   margin: 0 auto; }
 
-.clearfix {
+.u-clearfix {
   /* IE-6 */
   *zoom: 1; }
-  .clearfix:after, .clearfix:before {
+  .u-clearfix:after, .u-clearfix:before {
     content: " ";
     display: table; }
-  .clearfix:after {
+  .u-clearfix:after {
     clear: both; }
 
-.float-left {
+.u-float-left {
   float: left; }
 
-.float-right {
+.u-float-right {
   float: right; }
 
-.text-right {
+.u-text-right {
   text-align: right; }
 
-.text-left {
+.u-text-left {
   text-align: left; }
 
-.text-center {
+.u-text-center {
   text-align: center; }
 
-.uppercase {
+.u-text-uppercase {
   text-transform: uppercase; }
 
-.big-title {
+.u-invisible {
+  visibility: hidden; }
+
+.u-big-title {
   font-size: 3em;
   margin-bottom: 0; }
 
