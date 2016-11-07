@@ -5,7 +5,7 @@
   // background: white;
 }
 
-.clearfix {
+.u-clearfix {
   /* IE-6 */
   *zoom: 1;
   &:after, &:before {
@@ -17,31 +17,35 @@
   }
 }
 
-.float-left {
+.u-float-left {
   float:left;
 }
 
-.float-right {
+.u-float-right {
   float: right;
 }
 
-.text-right {
+.u-text-right {
   text-align: right;
 }
 
-.text-left {
+.u-text-left {
   text-align: left;
 }
 
-.text-center {
+.u-text-center {
   text-align: center;
 }
 
-.uppercase {
+.u-text-uppercase {
   text-transform: uppercase;
 }
 
-.big-title {
+.u-invisible {
+  visibility: hidden;
+}
+
+.u-big-title {
   font-size: 3em;
   margin-bottom: 0;
 }
