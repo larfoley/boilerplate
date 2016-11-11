@@ -720,12 +720,6 @@ textarea {
 .bg-white {
   background-color: #fff; }
 
-.white--light {
-  color: white; }
-
-.bg-white--light {
-  background-color: white; }
-
 .white--dark {
   color: #cccccc; }
 
@@ -743,12 +737,6 @@ textarea {
 
 .bg-black--light {
   background-color: #333333; }
-
-.black--dark {
-  color: black; }
-
-.bg-black--dark {
-  background-color: black; }
 
 .gray {
   color: #808080; }
@@ -809,7 +797,7 @@ html {
   background: white;
   font-family: "Raleway", "Helvetica Neue", "Helvetica", "Tahoma", "Verdana", sans-serif;
   font-size: 17px;
-  color: #ccc; }
+  color: gray; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -883,82 +871,5 @@ li {
 .u-big-title {
   font-size: 3em;
   margin-bottom: 0; }
-
-.button, .button--large, .button--full, .button__primary {
-  border-bottom: 3px solid;
-  border-radius: 2em;
-  text-decoration: none;
-  min-width: 160px;
-  padding: .6em 2.5em;
-  display: inline-block;
-  vertical-align: baseline;
-  transition: .4s; }
-  .button--large {
-    min-width: 250px; }
-  .button--full {
-    padding: .7em 2.5em;
-    min-width: 100%; }
-  .button__bg-color-red {
-    background-color: #E74C3C;
-    border-color: #921e12; }
-    .button__bg-color-red:hover {
-      background-color: #d62c1a; }
-  .button__color-red {
-    color: #E74C3C; }
-  .button__bg-color-green {
-    background-color: #2ECC71;
-    border-color: #176437; }
-    .button__bg-color-green:hover {
-      background-color: #25a25a; }
-  .button__color-green {
-    color: #2ECC71; }
-  .button__bg-color-blue {
-    background-color: #1E88E5;
-    border-color: #0e4576; }
-    .button__bg-color-blue:hover {
-      background-color: #166dba; }
-  .button__color-blue {
-    color: #1E88E5; }
-  .button__bg-color-white {
-    background-color: #fff;
-    border-color: #bfbfbf; }
-    .button__bg-color-white:hover {
-      background-color: #e6e6e6; }
-  .button__color-white {
-    color: #fff; }
-  .button__bg-color-black {
-    background-color: #000;
-    border-color: black; }
-    .button__bg-color-black:hover {
-      background-color: black; }
-  .button__color-black {
-    color: #000; }
-  .button__bg-color-gray {
-    background-color: #808080;
-    border-color: #404040; }
-    .button__bg-color-gray:hover {
-      background-color: #676767; }
-  .button__color-gray {
-    color: #808080; }
-  .button__bg-color-brightgray {
-    background-color: #373D49;
-    border-color: black; }
-    .button__bg-color-brightgray:hover {
-      background-color: #21252c; }
-  .button__color-brightgray {
-    color: #373D49; }
-  .button__bg-color-radical-red {
-    background-color: #FF3366;
-    border-color: #b3002d; }
-    .button__bg-color-radical-red:hover {
-      background-color: #ff0040; }
-  .button__color-radical-red {
-    color: #FF3366; }
-  .button__primary {
-    background: black;
-    color: white;
-    border-color: black; }
-    .button__primary:hover {
-      background-color: black; }
 
 /*# sourceMappingURL=main.css.map */
