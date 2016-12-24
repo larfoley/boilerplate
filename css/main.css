@@ -795,8 +795,8 @@ textarea {
 html {
   box-sizing: border-box;
   background: white;
-  font-family: "Raleway", "Helvetica Neue", "Helvetica", "Tahoma", "Verdana", sans-serif;
-  font-size: 17px;
+  font-family: "Helvetica Neue", "Helvetica", "Tahoma", "Verdana", sans-serif;
+  font-size: 16px;
   color: gray; }
 
 *, *:before, *:after {
@@ -871,5 +871,60 @@ li {
 .u-big-title {
   font-size: 3em;
   margin-bottom: 0; }
+
+.u-border-radius {
+  border-radius: 5px; }
+
+.u-full-width {
+  width: 100%; }
+
+body {
+  width: 500px;
+  margin: 20em auto; }
+
+.btn, .btn-primary {
+  font-size: 1em;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background-color: #eee;
+  border: 1px solid #bbbbbb;
+  color: black;
+  padding: .7em;
+  border-radius: 5px; }
+  .btn:hover, .btn-primary:hover {
+    cursor: pointer;
+    background-color: #e1e1e1; }
+
+.btn-primary {
+  background-color: #26a69a;
+  border: none;
+  border-bottom: 3px solid #13534d;
+  color: white;
+  padding: .8em 2em;
+  text-transform: uppercase;
+  letter-spacing: 1.5px; }
+  .btn-primary:hover {
+    background-color: #2dc3b5; }
+
+.form {
+  background: #f5f5f5;
+  padding: 2em; }
+  .form-input, .form-textarea {
+    width: 100%;
+    background: white;
+    padding: .7em;
+    border: 1px solid gainsboro; }
+    .form-input:focus, .form-textarea:focus {
+      outline-color: #26a69a; }
+  .form__label {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px; }
+  .form__field {
+    margin-bottom: 1em; }
 
 /*# sourceMappingURL=main.css.map */
