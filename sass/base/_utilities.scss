@@ -2,7 +2,6 @@
   width: $container-width;
   max-width: $container-max-width;
   margin: 0 auto;
-  // background: white;
 }
 
 .u-clearfix {
@@ -48,4 +47,12 @@
 .u-big-title {
   font-size: 3em;
   margin-bottom: 0;
+}
+
+.u-border-radius {
+  border-radius: 5px;
+}
+
+.u-full-width {
+  width: 100%;
 }
