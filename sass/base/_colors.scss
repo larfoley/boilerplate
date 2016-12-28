@@ -1,35 +1,51 @@
-@function color($color) {
-  @return map-get($colors, $color);
-  // Usage:
-  // .foo {
-  //  color: color("color-name")
-  // }
-}
+$colors: (
+  "red": #E74C3C,
+  "green": #2ECC71,
+  "blue": #1E88E5,
+  "white": #fff,
+  "black": #000,
+  "gray": #808080,
+  "brightgray": #373D49,
+  "radical-red": #FF3366,
+);
 
+// -----------------------------
+// Create a class for each color
+// -----------------------------
+//
+// .color__red {
+//   color: red;
+// }
+//
+// .bg-color__blue {
+//   background-color: blue;
+// }
+//
+//
 @each $color, $value in $colors {
 
-  .#{$color} {
+  .color__#{$color} {
     color: $value;
   }
 
-  .bg-#{$color} {
+  .bg-color__#{$color} {
     background-color: $value;
   }
 
   @if $color != "white" {
-    .#{$color}--light {
+    .color__#{$color}--light {
       color: lighten($value, 20%);
     }
-    .bg-#{$color}--light {
+    .bg-color#{$color}--light {
       background-color: lighten($value, 20%);
     }
   }
 
   @if $color != "black" {
-    .#{$color}--dark {
+    .color__#{$color}--dark {
       color: darken($value, 20%);
     }
-    .bg-#{$color}--dark {
+    .bg-color#{$color}--dark {
       background-color: darken($value, 20%);
     }
   }
