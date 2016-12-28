@@ -1,8 +1,3 @@
-body {
-  width: 500px;
-  margin: 20em auto;
-}
-
 .btn {
   font-size: 1em;
   text-align: center;
@@ -10,9 +5,6 @@ body {
   text-decoration: none;
   outline: none;
   border: none;
-  background-color: #eee;
-  border: 1px solid darken(#eee, 20%);
-  color: black;
   padding: .7em;
   border-radius: 5px;
 
@@ -21,6 +13,13 @@ body {
     background-color: darken(#eee, 5%);
   }
 
+}
+
+.btn-default {
+  @extend .btn;
+  background-color: #eee;
+  border: 1px solid darken(#eee, 20%);
+  color: black;
 }
 
 .btn-primary {
