@@ -1,0 +1,27 @@
+.nav {
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    @media #{$mq} {
+      display: inline-block;
+    }
+  }
+
+  &__item, &__link {
+    display: inline-block;
+  }
+
+  &__item {
+    list-style-type: none;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+}
+
+.site-nav {
+  background-color: black;
+}
