@@ -1,0 +1,19 @@
+.list {
+  padding-left: $padding;
+}
+
+.list-u {
+  @extend .list;
+
+  li {
+    list-style-type: disc;
+  }
+}
+
+.list-o {
+  @extend .list;
+
+  li {
+    list-style-type: disc;
+  }
+}
