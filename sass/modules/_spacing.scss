@@ -1,0 +1,49 @@
+.margin {
+  margin: $margin;
+
+  &--horizontal {
+    margin: 0 $margin;
+  }
+
+  &--vertical {
+    margin: $margin 0;
+  }
+
+  &--left {
+    margin-left: $margin;
+  }
+
+  &--right {
+    margin-right: $margin;
+  }
+
+  &--none {
+    margin: 0;
+  }
+
+}
+
+.padding {
+  padding: $padding;
+
+  &--horizontal {
+    padding: 0 $padding;
+  }
+
+  &--vertical {
+    padding: $padding 0;
+  }
+
+  &--left {
+    padding-left: $padding;
+  }
+
+  &--right {
+    padding-right: $padding;
+  }
+
+  &--none {
+    padding: 0;
+  }
+
+}
